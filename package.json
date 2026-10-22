@@ -2,6 +2,9 @@
   "name": "zurek-marketplace",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": "24.22.1"
+  },
   "scripts": {
     "build": "node scripts/build-registry.mjs",
     "build:curated": "ZUREK_NO_AGGREGATE=1 node scripts/build-registry.mjs",
